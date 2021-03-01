@@ -5,6 +5,7 @@ const fastify = require('fastify')({
 
 // Declare a route
 fastify.register(require('./routes/index'))
+fastify.register(require('./routes/api/status'), {prefix: '/api'})
 
 // Run the server!
 fastify.listen(3000, function (err, address) {

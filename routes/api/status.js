@@ -12,7 +12,7 @@ const opts = {
 }
 
 async function routes(fastify, options) {
-  fastify.get('/', opts, async (request, reply) => {
+  fastify.get('/status', opts, async (request, reply) => {
     return {status: 'ok'}
   })
 }
