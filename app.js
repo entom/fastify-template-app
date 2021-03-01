@@ -16,6 +16,10 @@ function build(opts = {}) {
     contentSecurityPolicy: false
   })
 
+  app.register(require('fastify-compress'), {
+    global: true,
+    encodings: ['deflate', 'gzip']
+  })
 
   app.register(require('./routes/index'))
   app.register(require('./routes/api/status'), {prefix: '/api'})
