@@ -4,7 +4,7 @@ const opts = {
       200: {
         type: 'object',
         properties: {
-          hello: {type: 'string'}
+          status: {type: 'string'}
         }
       }
     }
@@ -13,7 +13,7 @@ const opts = {
 
 async function routes(fastify, options) {
   fastify.get('/', opts, async (request, reply) => {
-    return {hello: 'world'}
+    return {status: 'ok'}
   })
 }
 
