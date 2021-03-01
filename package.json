@@ -1,0 +1,22 @@
+{
+  "name": "fastify-template-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/entom/fastify-template-app.git"
+  },
+  "author": "Tomasz Nicieja",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/entom/fastify-template-app/issues"
+  },
+  "homepage": "https://github.com/entom/fastify-template-app#readme",
+  "dependencies": {
+    "fastify": "^3.12.0"
+  }
+}
