@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/entom/fastify-template-app#readme",
   "dependencies": {
-    "fastify": "^3.12.0"
+    "ejs": "^3.1.6",
+    "fastify": "^3.12.0",
+    "point-of-view": "^4.13.0"
   },
   "devDependencies": {
     "pino-pretty": "^4.5.0",

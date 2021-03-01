@@ -13,7 +13,7 @@ const opts = {
 
 async function routes(fastify, options) {
   fastify.get('/', opts, async (request, reply) => {
-    return {hello: 'world'}
+    reply.view('/templates/index.ejs')
   })
 }
 
